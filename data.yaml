@@ -1,0 +1,6 @@
+train: D:/Commit_Project/train/images
+val: D:/Commit_Project/valid/images
+test: D:/Commit_Project/test/images
+
+nc: 2
+names: ["door", "window"]
