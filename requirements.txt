@@ -1,15 +1,8 @@
-<<<<<<< HEAD
+flask
 fastapi
 uvicorn
 ultralytics
 python-multipart
 Pillow
 torch
-=======
-ultralytics
-flask            
-python-multipart  
-uvicorn          
-pillow
-fast api
->>>>>>> 2d42543bc4b4a1d498c5eb81cb5440439e98bbc6
+
