@@ -5,11 +5,13 @@ from PIL import Image
 import io
 import uvicorn
 import torch
+import os
 
 app = FastAPI()
 
+model_path = os.path.join("runs", "detect", "train3", "weights", "best.pt")
+model = YOLO(model_path)
 
-model = YOLO(r"runs\detect\train3\weights\best.pt")  
 
 @app.post("/detect")
 async def detect(file: UploadFile = File(...)):
