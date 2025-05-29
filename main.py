@@ -9,7 +9,7 @@ import torch
 app = FastAPI()
 
 
-model = YOLO(r"D:\Commit_Project\runs\detect\train3\weights\best.pt")  
+model = YOLO(r"runs\detect\train3\weights\best.pt")  
 
 @app.post("/detect")
 async def detect(file: UploadFile = File(...)):
