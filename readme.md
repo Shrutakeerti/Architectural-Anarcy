@@ -1,6 +1,6 @@
 # 🏗️ Architectural Arena 
 
-This project is part of the Palcode AI Vision Exercise. It detects **doors** and **windows** in architectural blueprints using a custom-trained YOLOv8 model and exposes a `POST /detect` API.
+This project detects **doors** and **windows** in architectural blueprints using a custom-trained YOLOv8 model and exposes a `POST /detect` API.
 
 ---
 
