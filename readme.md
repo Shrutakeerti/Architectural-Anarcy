@@ -28,7 +28,7 @@ doors and windows
 
 ## 🏷️ Labeling
 
-- Tool: [LabelImg](https://github.com/tzutalin/labelImg)
+- Tool: [Roboflow](https://app.roboflow.com/littleoldme)
 - Format: YOLO `.txt` format
 - Each image has a corresponding `.txt` file with:
 
@@ -118,6 +118,15 @@ pip install -r requirements.txt
 
 python main.py            
 ```
+
+### Screenshots
+
+## first
+
+blueprint used as input for the `/detect` API:
+
+![Blueprint Example](https://github.com/Shrutakeerti/Architectural-Anarcy/blob/main/Screenshots/Screenshot%20(207).png)
+
 
 
 
